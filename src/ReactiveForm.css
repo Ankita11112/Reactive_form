@@ -1,0 +1,40 @@
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 5px outset rgba(17,58,143,1);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(154, 82, 82, 0.1);
+  background: linear-gradient(90deg, rgb(40, 86, 177) 3%, rgb(245, 61, 107) 51%, rgb(11, 27, 243) 84%);
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #d06cf8;
+  color: #f5f9fa;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #b1fbff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  white-space: pre-wrap;
+}
